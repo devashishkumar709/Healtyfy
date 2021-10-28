@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.history.HistoryFragment">
+
+    <ImageView
+        android:id="@+id/imageView24"
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="15dp"
+        android:src="@drawable/logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView23"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:layout_marginEnd="15dp"
+        android:src="@drawable/sq_wood"
+        app:layout_constraintBottom_toBottomOf="@+id/line_charter"
+        app:layout_constraintEnd_toEndOf="@+id/line_charter"
+        app:layout_constraintStart_toStartOf="@+id/line_charter"
+        app:layout_constraintTop_toTopOf="@+id/line_charter" />
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/line_charter"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginEnd="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
