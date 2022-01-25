@@ -26,3 +26,10 @@ Tracking your food and calorie intake can be important. Research shows that peop
 <h3 align=center>Sahil Chutani | sahilchutani123@gmail.com</h3>
 <h3 align=center>Devashish | devashishkumar709@gmail.com</h3>
 
+<h2 align=center>📝 License & Copyright 📝</h2>
+
+<p align="center">
+ © Sahil Chutani and Devashish
+  <br>
+  Licensed under the <a href="https://github.com/sahilchutani/Healtyfy/blob/master/LICENSE">APACHE LICENSE 2.0</a>
+</p>
